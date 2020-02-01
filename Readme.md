@@ -1,6 +1,6 @@
 # Kotlin MultiPlatform Examples
 
-Main repository containing all the example apps demonstrating features/functionality/integrations using Kotlin MultiPlatfrom development.
+Main repository containing all the example apps demonstrating features/functionality/integrations using Kotlin MultiPlatform development.
 
 ## Example apps
 
@@ -14,8 +14,6 @@ I welcome and encourage all pull requests. It usually will take me within 24-48 
 1. Please keep PR titles easy to read and descriptive of changes, this will make them easier to merge :)
 1. Pull requests _must_ be made against `develop` branch. Any other branch (unless specified by the maintainers) will get rejected.
 1. Check for existing [issues](https://github.com/nisrulz/kmp-examples/issues) first, before filing an issue.
-1. Make sure you follow the set standard as all other projects in this repo do
-   - Use the package name of the format `github.nisrulz.example.*` where `*` is the example you are adding to the repo. I am trying to follow a set standard in the repo, please adhere to that.
 1. Have fun!
 
 ## Extra
