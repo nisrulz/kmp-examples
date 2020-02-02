@@ -1,19 +1,8 @@
 package sample
 
-expect class Sample() {
-    fun checkMe(): Int
-}
+expect fun platformName(): String // ← Expecting this to be implemented
 
-expect object Platform {
-    val name: String
-}
-
-fun hello(): String = "Hello from ${Platform.name}"
-
-class Proxy {
-    fun proxyHello() = hello()
-}
-
-fun main() {
-    println(hello())
+//Usage
+fun createApplicationScreenMessage(): String {
+    return "Hello from ${platformName()}"
 }
